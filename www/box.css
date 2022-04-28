@@ -1,0 +1,32 @@
+/* Get a fancy font from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body {
+}
+
+/* Change header text to imported font */
+  h3 {
+    text-align: center;
+  }
+
+/* Make text visible on inputs */
+  .shiny-input-container {
+    color: #474747;
+  }
+  
+  .box {
+    border-radius: 5%;
+    transition: box-shadow .4s;
+  }
+  .box:hover {
+    box-shadow: 1px 8px 8px 1px rgb(0, 0, 0, 0.4); 
+  }
+  
+  .box-title {
+    font-family: 'Yusei Magic', sans-serif;
+  }
+  
+  body{
+  background: #fff;
+}
+
